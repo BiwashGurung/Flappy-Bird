@@ -5,7 +5,7 @@
 }
 body{
     background: rgb(39,250,0);
-    background: linear-gradient(90deg, rgba(39,250,0,1) 0%, rgba(0,37,240,1) 100%, rgba(255,25,25,0) 100%, rgba(0,37,240,1) 100%, rgba(255,0,0,0) 100%, rgba(207,207,207,0.8) 100%);
+    background: linear-gradient(180deg , black , grey);
 }
 .canvas{
     margin: 0 auto;
