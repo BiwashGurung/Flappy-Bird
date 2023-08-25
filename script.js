@@ -104,6 +104,10 @@ document.addEventListener("keydown", function(event) {
  });
 
  function moveUp(){
-    
+    if(yPos > 0){
+        velY = -4;
+        fly_audio.play();
+
+    }
 
 }
