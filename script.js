@@ -29,3 +29,5 @@ let gravity = 0.2;
 let velY = 0;
 
 gap = 130;
+
+let pipe = [];
