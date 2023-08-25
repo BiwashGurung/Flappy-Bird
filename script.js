@@ -24,3 +24,5 @@ score_audio.src = "./audio/score.mp3";
 
 let xPos = 10;
 let yPos = 150;
+
+let gravity = 0.2;
