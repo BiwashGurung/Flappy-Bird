@@ -102,3 +102,8 @@ document.addEventListener("keydown", function(event) {
              moveUp();
     }
  });
+
+ function moveUp(){
+    
+
+}
