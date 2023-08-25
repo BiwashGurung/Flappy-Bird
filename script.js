@@ -38,3 +38,4 @@ pipe[0] = {
 };
 
 let scoreText = document.getElementById("score");
+let bestScoreText = document.getElementById("best_score");
