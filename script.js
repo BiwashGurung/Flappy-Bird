@@ -113,5 +113,9 @@ document.addEventListener("keydown", function(event) {
 }
 
 function reload(){
+    if (score > bestScore){
+        bestScore = score;
+    }
    
+
 }
