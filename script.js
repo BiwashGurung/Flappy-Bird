@@ -86,6 +86,7 @@ function draw(){
     }
     context.drawImage(road, 0, canvas.height - road.height);
 
-
+    scoreText.innerHTML = "SCORE: " + score;
+    
 }
 }
