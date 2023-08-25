@@ -10,3 +10,5 @@ let PipeBottom = new Image();
 let PipeUp = new Image();
 
 bird.src = "img/bird.png";
+backround.src = "./img/back.png";
+
