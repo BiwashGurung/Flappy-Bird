@@ -23,3 +23,13 @@ body{
     color: #fff;
     font-family: "Arial", sans-serif;
 }
+.description{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    font-size: 30px;
+}
