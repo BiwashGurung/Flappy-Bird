@@ -7,3 +7,4 @@ let bird = new Image();
 let backround = new Image();
 let road = new Image();
 let PipeBottom = new Image();
+let PipeUp = new Image();
