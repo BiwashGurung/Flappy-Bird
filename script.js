@@ -14,3 +14,5 @@ backround.src = "./img/back.png";
 road.src = "./img/road.png";
 PipeBottom.src = "./img/pipeBottom.png";
 PipeUp.src = "./img/pipeUp.png";
+
+let fly_audio = new Audio();
