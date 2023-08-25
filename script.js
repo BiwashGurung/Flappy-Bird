@@ -31,3 +31,8 @@ let velY = 0;
 gap = 130;
 
 let pipe = [];
+
+pipe[0] = {
+    x: canvas.width,
+    y: 0,
+};
