@@ -128,3 +128,4 @@ function reload(){
 
 }
 reload();
+var state = true;
