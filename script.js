@@ -36,3 +36,5 @@ pipe[0] = {
     x: canvas.width,
     y: 0,
 };
+
+let scoreText = document.getElementById("score");
