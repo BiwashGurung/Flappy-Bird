@@ -43,4 +43,47 @@ let bestScoreText = document.getElementById("best_score");
 let score = 0;
 let bestScore = 0;
 
-function draw(){}
+function draw(){
+    if(state) {
+    context.drawImage(backround, 0, 0);
+    context.drawImage(bird, xPos, yPos);
+
+    if (yPos + bird.height >= canvas.height - road.height) {
+        reload()
+    }
+    velY += gravity;
+    yPos += velY;
+
+    for(let i = 0; i < pipe.length; i++){
+        if(pipe[i].x < -PipeUp.width){
+            pipe.shift();
+        }else{
+            context.drawImage(PipeUp, pipe[i].x, pipe[i].y);
+        context.drawImage(PipeBottom, pipe[i].x, pipe[i].y + PipeUp.height + gap);
+        pipe[i].x -= 2;
+
+        if(pipe[i].x == 50){
+            pipe.push({
+                x: canvas.width,
+                y: Math.floor(Math.random() * PipeUp.height) - PipeUp.height,
+            });
+        }
+        }
+
+        if( xPos + bird.width >= pipe[i].x &&
+            xPos <= pipe[i].x + PipeUp.width &&
+            (yPos <= pipe[i].y + PipeUp.height ||
+            yPos + bird.height >= pipe[i].y + PipeUp.height + gap)){
+            reload();
+        }
+
+        if (pipe[i].x == 0) {
+            score++;
+            score_audio.play()
+        }
+
+        
+    }
+
+}
+}
