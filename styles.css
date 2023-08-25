@@ -15,9 +15,9 @@ body{
 }
 .wrapper{
     width: 500px;
-    margin: 0 auto;
+    margin-top: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: column;
     font-size: 30px;
     color: #fff;
