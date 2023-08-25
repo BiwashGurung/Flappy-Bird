@@ -129,3 +129,6 @@ function reload(){
 }
 reload();
 var state = true;
+function game_pause(){
+    state = !state;
+}
