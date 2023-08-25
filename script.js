@@ -96,3 +96,9 @@ canvas.addEventListener("mousedown", function(event) {
         moveUp();
     }
 });
+
+document.addEventListener("keydown", function(event) {
+    if(event.code == "Space" ){
+             moveUp();
+    }
+ });
