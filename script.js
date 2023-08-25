@@ -6,3 +6,4 @@ canvas.height = 635;
 let bird = new Image();
 let backround = new Image();
 let road = new Image();
+let PipeBottom = new Image();
