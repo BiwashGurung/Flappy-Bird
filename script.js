@@ -116,6 +116,14 @@ function reload(){
     if (score > bestScore){
         bestScore = score;
     }
-   
+    xPos = 10;
+    yPos = 150;
+    velY = 0;
+    score = 0;
+    pipe = [];
+    pipe[0] = {
+        x: canvas.width,
+        y: 0,
+    }
 
 }
