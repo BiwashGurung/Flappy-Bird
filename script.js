@@ -4,3 +4,4 @@ canvas.width = 300;
 canvas.height = 635;
 
 let bird = new Image();
+let backround = new Image();
