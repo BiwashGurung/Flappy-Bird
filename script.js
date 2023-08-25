@@ -132,3 +132,5 @@ var state = true;
 function game_pause(){
     state = !state;
 }
+
+setInterval(draw, 20);
