@@ -17,3 +17,5 @@ PipeUp.src = "./img/pipeUp.png";
 
 let fly_audio = new Audio();
 let score_audio = new Audio();
+
+fly_audio.src = "./audio/fly.mp3";
