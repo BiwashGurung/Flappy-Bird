@@ -42,3 +42,5 @@ let bestScoreText = document.getElementById("best_score");
 
 let score = 0;
 let bestScore = 0;
+
+function draw(){}
