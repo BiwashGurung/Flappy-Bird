@@ -19,3 +19,4 @@ let fly_audio = new Audio();
 let score_audio = new Audio();
 
 fly_audio.src = "./audio/fly.mp3";
+score_audio.src = "./audio/score.mp3";
