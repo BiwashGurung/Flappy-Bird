@@ -90,3 +90,9 @@ function draw(){
     bestScoreText.innerHTML = "BEST SCORE: " + bestScore;
 }
 }
+
+canvas.addEventListener("mousedown", function(event) {
+    if(event.button == 0 ){
+        moveUp();
+    }
+});
