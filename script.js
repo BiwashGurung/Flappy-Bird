@@ -8,3 +8,5 @@ let backround = new Image();
 let road = new Image();
 let PipeBottom = new Image();
 let PipeUp = new Image();
+
+bird.src = "img/bird.png";
